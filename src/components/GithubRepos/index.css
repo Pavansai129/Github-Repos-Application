@@ -1,0 +1,124 @@
+/* write your css code */
+* {
+  color: #000000;
+  text-decoration: none;
+}
+.heading {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 80px;
+  font-weight: 500;
+  width: 100%;
+  color: #0078f0;
+}
+.loading-view-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.starred-repos-page-conatiner {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f2f25e;
+}
+.starred-repos-page {
+  height: 90%;
+  width: 90%;
+  border: 3px solid #b079f2;
+  border-radius: 5px;
+  padding: 20px;
+  overflow: auto;
+}
+.repos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+}
+.repo-link {
+  width: 100%;
+}
+.repo-card {
+  display: flex;
+  background: #509ef2;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  padding: 10px;
+  list-style-type: none;
+}
+
+.avatar-url {
+  height: 250px;
+  width: 250px;
+  margin-right: 20px;
+  border-radius: 3px;
+}
+.repo-data-container {
+  display: flex;
+  flex-direction: column;
+}
+.repo-name {
+  font-family: 'Roboto';
+  font-size: 50px;
+  font-weight: 500;
+  margin: 10px;
+  color: #8c20f7;
+}
+.repo-description {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin: 10px;
+  color: #645196;
+}
+.repo-issues-stars-count-published-date-container {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.repo-stars {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+  height: 50px;
+  width: 200px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid lightgrey;
+  border-radius: 4px;
+  margin-right: 20px;
+  color: #c311f0;
+}
+.repo-issues {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+  height: 50px;
+  width: 200px;
+  padding: 5px;
+  color: #8d0aff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid lightgrey;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+.repo-published-date {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #b01af0;
+}
+.failure-view{
+  display: flex;
+  justify-content: center;
+}
